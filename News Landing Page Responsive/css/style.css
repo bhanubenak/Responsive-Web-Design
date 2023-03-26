@@ -25,11 +25,11 @@ li {
 
 
 .background-img {
-     background-image: url('../Images/Background.svg');
+    background-image: url('../Images/Background.svg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 1024px;
-} 
+}
 
 .nav {
     padding: 32px 27px;
@@ -210,16 +210,20 @@ li {
     display: none;
 }
 
+.d-none-sm {
+    display: none !important;
+}
 
+.d-block {
+    display: block !important;
+}
 
 
 
 
 /* Extra small devices (mobile) */
 @media screen and (max-width: 576px) {
-    .d-small{
-        display: block;
-    }
+    
 }
 
 /* Small devices (mobile/tablets) */
