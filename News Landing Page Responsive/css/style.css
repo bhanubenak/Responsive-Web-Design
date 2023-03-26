@@ -23,13 +23,13 @@ li {
     list-style-type: none;
 }
 
+
 .background-img {
-    background-image: url('../Images/Background.svg');
-    background-size: cover;
+     background-image: url('../Images/Background.svg');
     background-repeat: no-repeat;
-    width: 100%;
+    background-size: cover;
     height: 1024px;
-}
+} 
 
 .nav {
     padding: 32px 27px;
@@ -64,7 +64,7 @@ li {
     color: #FFFFFF;
 }
 
-.nav ul li .button:hover{
+.nav ul li .button:hover {
     background-color: #FFFFFF;
     color: #000000;
 }
@@ -91,7 +91,7 @@ li {
     background: #FFFFFF;
 }
 
-.primary-heading {    
+.primary-heading {
     margin-top: 32px;
     width: 748px;
     font-family: 'Libre Caslon Display';
@@ -124,6 +124,12 @@ li {
     font-size: 18px;
     color: #FFFFFF;
     margin-top: 40px;
+}
+
+
+.text-content .button:hover {
+    color: #000000;
+    background-color: #ffffff;
 }
 
 .main-content {
@@ -195,4 +201,43 @@ li {
 .col {
     outline: 2px solid #DDDDDD;
     border-radius: 4px;
+}
+
+
+
+
+.d-none {
+    display: none;
+}
+
+
+
+
+
+
+/* Extra small devices (mobile) */
+@media screen and (max-width: 576px) {
+    .d-small{
+        display: block;
+    }
+}
+
+/* Small devices (mobile/tablets) */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    /* CSS rules */
+}
+
+/* Medium devices (tablets/laptops) */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /* CSS rules */
+}
+
+/* Large devices (laptops/desktops) */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    /* CSS rules */
+}
+
+/* Extra large devices (large desktops) */
+@media screen and (min-width: 1200px) {
+    /* CSS rules */
 }
