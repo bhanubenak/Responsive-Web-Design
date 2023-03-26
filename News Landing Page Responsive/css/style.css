@@ -206,34 +206,53 @@ li {
 
 
 
-.d-none {
-    display: none;
-}
-
-.d-none-sm {
-    display: none !important;
-}
-
-.d-block {
-    display: block !important;
-}
 
 
 
 
 /* Extra small devices (mobile) */
 @media screen and (max-width: 576px) {
-    
+    .d-none {
+        display: none;
+    }
+
+    .d-none-sm {
+        display: none !important;
+    }
+
+    .d-block {
+        display: block !important;
+    }
 }
 
 /* Small devices (mobile/tablets) */
 @media screen and (min-width: 576px) and (max-width: 768px) {
-    /* CSS rules */
+    .d-none {
+        display: none;
+    }
+
+    .d-none-sm {
+        display: none !important;
+    }
+
+    .d-block {
+        display: block !important;
+    }
 }
 
 /* Medium devices (tablets/laptops) */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    /* CSS rules */
+    .d-none {
+        display: none;
+    }
+
+    .d-none-sm {
+        display: none !important;
+    }
+
+    .d-block {
+        display: block !important;
+    }
 }
 
 /* Large devices (laptops/desktops) */
