@@ -187,7 +187,7 @@ li {
 
 .col img {
     width: 311px !important;
-    height: 619px !important;
+    height: 352px !important;
 }
 
 .news-deatils {
@@ -221,6 +221,23 @@ li {
     color: #D9852C;
 }
 
+.nf-tablet, .nf-desktop{
+    display: none !important;
+}
+
+.nf-mobile{
+    display: block !important;
+}
+
+.nav-menu{
+    display: none !important;
+}
+
+.hamburger {
+    display: block !important;
+}
+
+
 /* Small devices (tablets) */
 @media screen and (min-width: 576px) {
     .nav-menu {
@@ -247,15 +264,18 @@ li {
         display: block !important;
     }
 
-    .nf-desktop,
-    .nf-tablet {
+    .nf-tablet{
+        display: block !important;
+    }
+
+    .nf-mobile, .nf-desktop{
         display: none !important;
     }
 
 
     .main-content {
         padding: 0px 72px;
-        padding-top: 78px;
+        padding-top: 89px;
     }
 
     .column-layout {
@@ -278,8 +298,6 @@ li {
     .col img {
         width: 187px !important;
         height: 352px !important;
-        /* margin-bottom: 35px; */
-        /* width: 410px; */
     }
 
     .news-deatils {
@@ -319,12 +337,12 @@ li {
 
     .col-3 p.description {
         padding-bottom: 40px;
-    }
+    } 
 }
 
 /* Large devices (laptops/desktops) */
 @media screen and (min-width: 992px) {
-
+ 
     .hamburger {
         display: block;
     }
@@ -366,18 +384,18 @@ li {
     .col img {
         width: 311px !important;
         height: 352px !important;
-    }
+    } 
 }
 
 /* Extra large devices (large desktops) */
 @media screen and (min-width: 1200px) {
 
     /* CSS rules */
-    .column-layout {
+    /* .column-layout {
         margin-bottom: 43px;
         display: flex;
         gap: 20px;
         flex-direction: row;
         align-items: center;
-    }
+    } */
 }
