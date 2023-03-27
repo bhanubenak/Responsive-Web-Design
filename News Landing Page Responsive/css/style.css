@@ -221,15 +221,16 @@ li {
     color: #D9852C;
 }
 
-.nf-tablet, .nf-desktop{
+.nf-tablet,
+.nf-desktop {
     display: none !important;
 }
 
-.nf-mobile{
+.nf-mobile {
     display: block !important;
 }
 
-.nav-menu{
+.nav-menu {
     display: none !important;
 }
 
@@ -264,11 +265,12 @@ li {
         display: block !important;
     }
 
-    .nf-tablet{
+    .nf-tablet {
         display: block !important;
     }
 
-    .nf-mobile, .nf-desktop{
+    .nf-mobile,
+    .nf-desktop {
         display: none !important;
     }
 
@@ -313,7 +315,7 @@ li {
     }
 
     .description {
-        margin-top: 28px;
+        margin-top: 26px;
         font-family: 'Inter';
         font-weight: 700;
         font-size: 15px;
@@ -335,56 +337,65 @@ li {
         padding-bottom: 20px;
     }
 
+    .col-2 a{
+        padding-top: 10px;
+    }
+    
+    .col-3 a{
+        padding-top: 10px;
+    }
     .col-3 p.description {
         padding-bottom: 40px;
-    } 
+    }
 }
 
 /* Large devices (laptops/desktops) */
 @media screen and (min-width: 992px) {
- 
-    .hamburger {
-        display: block;
-    }
 
-    .nav-menu {
+    .hamburger {
         display: none !important;
     }
 
-    .nf-desktop,
-    .nf-tablet {
+    .nav-menu {
+        display: flex !important;
+    }
+
+    .nf-desktop {
         display: block !important;
     }
 
-    .nf-mobile {
+    .nf-mobile,
+    .nf-tablet {
         display: none !important;
     }
 
     .main-content {
-        padding: 0px 72px;
+        /* padding: 0px 72px; */
         padding-top: 78px;
     }
 
     .column-layout {
         margin-bottom: 61px;
         display: flex;
-        gap: 20px;
+        flex-wrap: wrap;
+        gap: min(20px, 1vw);
         flex-direction: row;
         align-items: center;
+        justify-content: center;
     }
 
     .col {
-        height: 352px;
-        width: 311px;
+        width: 419px;
+        height: 619px;
         border-radius: 4px;
         margin-bottom: 32px;
         outline: 2px solid #DDDDDD;
     }
 
     .col img {
-        width: 311px !important;
+        width: 419px !important;
         height: 352px !important;
-    } 
+    }
 }
 
 /* Extra large devices (large desktops) */
