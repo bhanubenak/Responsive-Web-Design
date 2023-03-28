@@ -396,6 +396,19 @@ li {
         width: 419px !important;
         height: 352px !important;
     }
+
+    .news-deatils a {
+        padding-top: 34px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        float: right;
+        color: #D9852C;
+    }
+
+    
 }
 
 /* Extra large devices (large desktops) */
