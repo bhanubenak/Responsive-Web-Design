@@ -66,6 +66,7 @@ li {
 .nav ul {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .nav ul li {
@@ -383,7 +384,7 @@ li {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        width: calc((100% - 20px - 6px)/3); 
+        /* width: calc((100% - 40px) / 3); */
     }
 
     .col {
