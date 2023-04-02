@@ -286,6 +286,7 @@ li {
         gap: 20px;
         flex-direction: row;
         align-items: center;
+        justify-content: center;
     }
 
     .col {
@@ -382,6 +383,7 @@ li {
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        width: calc((100% - 20px - 6px)/3); 
     }
 
     .col {
@@ -406,20 +408,5 @@ li {
         line-height: 18px;
         float: right;
         color: #D9852C;
-    }
-
-    
-}
-
-/* Extra large devices (large desktops) */
-@media screen and (min-width: 1200px) {
-
-    /* CSS rules */
-    /* .column-layout {
-        margin-bottom: 43px;
-        display: flex;
-        gap: 20px;
-        flex-direction: row;
-        align-items: center;
-    } */
+    }   
 }
