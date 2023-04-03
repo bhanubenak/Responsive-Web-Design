@@ -1,18 +1,17 @@
 *,
-*::before,
-*::after {
+::before,
+::after {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
-/* base styles */
 html {
     font-size: 14px;
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 1rem;
 }
 
@@ -22,9 +21,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-weight: 600;
-    color: #000000;
+    color: rgb(0, 0, 0);
 }
 
 a {
@@ -40,9 +39,8 @@ li {
     list-style-type: none;
 }
 
-/* Top Container Content */
 .background-img {
-    background-image: url('../Images/Background.svg');
+    background-image: url("../Images/Background.svg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 1024px;
@@ -71,33 +69,33 @@ li {
 
 .nav ul li {
     margin-left: 32px;
-    font-family: 'Inter';
+    font-family: Inter;
     font-style: normal;
     font-size: 18px;
 }
 
 .nav ul li a {
-    color: #FFFFFF !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 .nav ul li .button {
-    border: 2px solid #FFFFFF;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
     background-color: transparent;
     padding: 10px 27px;
-    font-family: 'Inter';
+    font-family: Inter;
     font-size: 18px;
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
 }
 
 .nav ul li .button:hover {
-    background-color: #FFFFFF;
-    color: #000000;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .logo {
-    color: #ffffff;
-    font-family: 'Inter';
+    color: rgb(255, 255, 255);
+    font-family: Inter;
     font-style: normal;
     font-weight: 900;
     line-height: 37px;
@@ -113,60 +111,58 @@ li {
 .rect-block {
     width: 90px;
     height: 15px;
-    background: #FFFFFF;
+    background: rgb(255, 255, 255);
 }
 
 .primary-heading {
     text-align: left;
     margin-top: 32px;
-    font-family: 'Libre Caslon Display';
+    font-family: "Libre Caslon Display";
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
     line-height: 62px;
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
 }
 
 .sub-heading {
     margin-top: 32px;
-    font-family: 'Inter';
+    font-family: Inter;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
 }
 
 .text-content .button {
-    border: 2px solid #FFFFFF;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
     background-color: transparent;
     padding: 10px 27px;
-    font-family: 'Inter';
+    font-family: Inter;
     font-size: 18px;
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
     margin-top: 41px;
 }
 
-
 .text-content .button:hover {
-    color: #000000;
-    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 .main-content {
-    padding: 0px 32px;
-    padding-top: 78px;
+    padding: 78px 32px 0px;
 }
 
 .secondary-heading {
     padding-bottom: 49px;
-    font-family: 'Inter';
+    font-family: Inter;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
-    color: #000000;
+    color: rgb(0, 0, 0);
     text-align: left;
 }
 
@@ -175,14 +171,14 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .col {
     width: 311px;
     height: 619px;
-    border-radius: 4px;
     margin-bottom: 32px;
-    outline: 2px solid #DDDDDD;
+    outline: rgb(221, 221, 221) solid 2px;
     border-radius: 4px;
 }
 
@@ -192,34 +188,34 @@ li {
 }
 
 .news-deatils {
-    padding: 0 32px !important;
+    padding: 0px 32px !important;
 }
 
 .date {
     margin-top: 35px;
-    font-family: 'Inter';
+    font-family: Inter;
     font-style: normal;
     font-size: 15px;
-    color: #B7B7B7;
+    color: rgb(183, 183, 183);
 }
 
 .description {
     margin-top: 26px;
-    font-family: 'Inter';
+    font-family: Inter;
     font-weight: 700;
     font-size: 20px;
-    color: #000000;
+    color: rgb(0, 0, 0);
 }
 
 .news-deatils a {
     padding-top: 18px;
-    font-family: 'Inter';
+    font-family: Inter;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
     float: right;
-    color: #D9852C;
+    color: rgb(217, 133, 44);
 }
 
 .nf-tablet,
@@ -239,8 +235,6 @@ li {
     display: block !important;
 }
 
-
-/* Small devices (tablets) */
 @media screen and (min-width: 576px) {
     .nav-menu {
         display: none !important;
@@ -256,7 +250,6 @@ li {
     }
 }
 
-/* Medium devices (tablets/laptops) */
 @media screen and (min-width: 768px) {
     .nav-menu {
         display: none !important;
@@ -275,28 +268,19 @@ li {
         display: none !important;
     }
 
-
     .main-content {
-        padding: 0px 72px;
-        padding-top: 89px;
+        padding: 89px 72px 0px;
     }
 
     .column-layout {
-        margin-bottom: 61px;
         display: flex;
         gap: 20px;
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
     }
 
     .col {
         width: 187px;
         height: 635px;
-        border-radius: 4px;
-        margin-bottom: 32px;
-        outline: 2px solid #DDDDDD;
-        border-radius: 4px;
     }
 
     .col img {
@@ -305,55 +289,54 @@ li {
     }
 
     .news-deatils {
-        padding: 0 32px !important;
+        padding: 0px 32px !important;
     }
 
     .date {
         margin-top: 35px;
-        font-family: 'Inter';
+        font-family: Inter;
         font-style: normal;
         font-size: 15px;
-        color: #B7B7B7;
+        color: rgb(183, 183, 183);
     }
 
     .description {
         margin-top: 26px;
-        font-family: 'Inter';
+        font-family: Inter;
         font-weight: 700;
         font-size: 15px;
-        color: #000000;
+        color: rgb(0, 0, 0);
     }
 
     .news-deatils a {
         padding-top: 18px;
-        font-family: 'Inter';
+        font-family: Inter;
         font-style: normal;
         font-weight: 500;
         font-size: 15px;
         line-height: 18px;
         float: right;
-        color: #D9852C;
+        color: rgb(217, 133, 44);
     }
 
     .col-2 p.description {
         padding-bottom: 20px;
     }
 
-    .col-2 a{
+    .col-2 a {
         padding-top: 10px;
     }
-    
-    .col-3 a{
+
+    .col-3 a {
         padding-top: 10px;
     }
+
     .col-3 p.description {
         padding-bottom: 40px;
     }
 }
 
-/* Large devices (laptops/desktops) */
 @media screen and (min-width: 992px) {
-
     .hamburger {
         display: none !important;
     }
@@ -372,42 +355,26 @@ li {
     }
 
     .main-content {
-        /* padding: 0px 72px; */
         padding-top: 78px;
     }
 
-    .column-layout {
-        margin-bottom: 61px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: min(20px, 1vw);
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        /* width: calc((100% - 40px) / 3); */
-    }
-
     .col {
-        width: 419px;
-        height: 619px;
-        border-radius: 4px;
-        margin-bottom: 32px;
-        outline: 2px solid #DDDDDD;
+        width: 300px;
+        height: 572px;
     }
 
     .col img {
-        width: 419px !important;
-        height: 352px !important;
+        object-fit: cover;
+        width: 300px !important;
     }
 
     .news-deatils a {
-        padding-top: 34px;
-        font-family: 'Inter';
+        font-family: Inter;
         font-style: normal;
         font-weight: 500;
         font-size: 15px;
         line-height: 18px;
         float: right;
-        color: #D9852C;
-    }   
+        color: rgb(217, 133, 44);
+    }
 }
