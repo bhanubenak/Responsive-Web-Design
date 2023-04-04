@@ -236,14 +236,17 @@ li {
 }
 
 @media screen and (min-width: 576px) {
+    /* navigation menu list will be hide */
     .nav-menu {
         display: none !important;
     }
 
+    /* Hamburger logo will appear */
     .hamburger {
         display: block !important;
     }
 
+    /* images with width more than screen size will hide */
     .nf-desktop,
     .nf-tablet {
         display: none !important;
